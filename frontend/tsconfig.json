@@ -14,6 +14,20 @@
     "isolatedModules": true,
     "jsx": "react-jsx"
   },
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true,
+  "strictNullChecks": true,
+  "strictFunctionTypes": true,
+  "strictBindCallApply": true,
+  "useUnknownInCatchVariables": true,
+  "allowUnreachableCode": false,
+  "allowUnusedLabels": false,
+  "exactOptionalPropertyTypes": true,
+  "importsNotUsedAsValues": "error",
+  "incremental": true,
+  "tsBuildInfoFile": "./.tsbuildinfo",
   "include": ["src"],
   "exclude": ["node_modules"]
 }
